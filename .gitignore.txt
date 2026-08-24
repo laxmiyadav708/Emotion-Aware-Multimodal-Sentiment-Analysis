@@ -1,0 +1,29 @@
+# Dataset files
+data/train/
+data/dev/
+data/test/
+data/*.csv
+data/*.zip
+
+# Generated embeddings
+embeddings/*.npy
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+venv/
+env/
+.venv/
+
+# Large model files (ignore if too large)
+*.pth
+*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
